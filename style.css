@@ -127,16 +127,16 @@ div.line{
 }
 @media(max-width:700px){
     .naslovna-col1 h1{
-        font-size: 25px;
+        font-size: 24px;
     }
     .naslovna-col1 p{
-        font-size: 18px;
+        font-size: 17px;
    }
    .info h2{
     font-size: 20px;
    }
    .info{
-    margin-top: 0px ;
+    margin-top: -20px ;
    }
    .info-row{
     margin-left: 10px;
@@ -203,6 +203,7 @@ margin: auto;
     font-size: 20px;
     cursor: pointer;
     transition: all 1s;
+    border: 1px solid black;
 }
 .usluge-row2 button:hover{
     width: 230px;
@@ -227,12 +228,10 @@ margin: auto;
     }
     .usluge-row2 button{
         width: 160px;
+        border: 1px solid black;
     }
     .usluge-row2 button:hover{
         width: 200px;
-    }
-    .info{
-        padding-top: 70px;
     }
     .usluge-row{
         flex-direction: column;
